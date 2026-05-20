@@ -18,3 +18,8 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
+    
+    - name: Download Archieve
+      uses: actions/download-artifact@v4
+      with:
+        name: hello-artifact
