@@ -30,4 +30,4 @@ jobs:
             path: ./artifacts
 
         - name: output
-          run: cat ./artifacts
+          run: cat ./artifacts/hello-artifact
